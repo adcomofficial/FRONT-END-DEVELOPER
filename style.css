@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+h1 {
+  width: 50%;
+  box-shadow: 50%;
+}
+h1:hover {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+  color: white;
+  background: rgb(81, 148, 255);
+  border-radius: 10%;
+}
